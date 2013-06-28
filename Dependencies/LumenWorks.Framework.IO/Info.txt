@@ -1,2 +1,0 @@
-URL: http://www.codeproject.com/Articles/9258/A-Fast-CSV-Reader
-Version: 3.8.1
