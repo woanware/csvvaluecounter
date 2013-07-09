@@ -32,6 +32,9 @@ namespace csvvaluecounter
                     return;
                 }
 
+                // Decrement the field as the reader library is 0 based
+                _options.Field -= 1;
+
                 List<ValueCounter> data = new List<ValueCounter>();
 
                 CsvHelper.Configuration.CsvConfiguration csvConfiguration = new CsvHelper.Configuration.CsvConfiguration();
